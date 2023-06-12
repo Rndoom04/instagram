@@ -203,7 +203,7 @@
         public function getMedia() {
             // Prepare data
             $data = [
-                "fields" => "id,caption,comments_count,like_count,media_type,media_url,thumbnail_url",
+                "fields" => "id,caption,media_type,media_url,thumbnail_url",
                 "access_token" => $this->token,
             ];
 

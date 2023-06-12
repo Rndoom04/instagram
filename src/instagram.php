@@ -1,7 +1,8 @@
 <?php
     /*
-     * Example library for PHP by Kollert Slavom�r
-     * version: 1.0
+     * Example library for PHP by Kollert Slavomír
+     * version: 1.11
+     * revision: 13.6.2023
      * release date: 6.11.2022
      */
 
@@ -23,7 +24,7 @@
             "short_lived_token" => "/oauth/access_token",
             "long_lived_token" => "/access_token",
             "refresh_long_lived_token" => "/refresh_access_token",
-            "get_media" => null // will be full during setUserID() method
+            "get_media" => "/me/media"
         ];
 
         // Errors
